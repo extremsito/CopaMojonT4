@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> TorneoF1 </title>
     <link rel="stylesheet" href="./css/F1.css">
-
 </head>
 <style>
     body {
@@ -27,28 +26,27 @@
         color: red;
     }
 </style>
+
 <body>
     <header>
         <h1 id="1"> COPA MOJON T4 </h1>
-        
-        
     </header>
+
     <nav>
         <ul>
             <li><a href="./index.html">Clasificación Pilotos</a></li>
-            <li><a href="./index2.html"> Clasificación Escuderias</a></li>
+            <li><a href="./index2.html">Clasificación Escuderías</a></li>
             <li><a href="./index3.html">Info y Reglas</a></li>
         </ul>
     </nav>
+
     <h1>Normas CM</h1>
     <br>
     <br>
-    <br>
-
     <h2>Formato del Campeonato</h2>
     <h3>Mundial (6 Rondas, posibilidad de 7)</h3>
     <p>Dos formatos: <strong>Original</strong> y <strong>Mini</strong>.</p>
-    
+
     <h3>Formato Original</h3>
     <ul>
         <li><strong>Clasificación:</strong> 15 minutos.</li>
@@ -63,11 +61,59 @@
                 <li>Random</li>
             </ul>
         </li>
-        <li><strong>Sistema de Puntuación:</strong> Igual que en la F1 pero x2.</li>
-        <li><strong>Máxima puntuación por carrera:</strong> 52 puntos</li>
-        <li><strong>2 puntos extra por la Pole Position</strong></li>
+        <li><strong>Sistema de Puntuación:</strong> Basado en el de MotoGP.</li>
+        <li><strong>Puntuación por carrera:</strong></li>
+        <ul>
+            <li>1º clasificado: 25 puntos</li>
+            <li>2º clasificado: 20 puntos</li>
+            <li>3º clasificado: 18 puntos</li>
+            <li>4º clasificado: 15 puntos</li>
+            <li>5º clasificado: 13 puntos</li>
+            <li>6º clasificado: 10 puntos</li>
+            <li>7º clasificado: 9 puntos</li>
+            <li>8º clasificado: 8 puntos</li>
+            <li>9º clasificado: 7 puntos</li>
+            <li>10º clasificado: 6 puntos</li>
+            <li>11º clasificado: 4 puntos</li>
+            <li>12º clasificado: 3 puntos</li>
+            <li>13º clasificado: 2 puntos</li>
+            <li>14º clasificado: 1 punto</li>
+        </ul>
+        <li><strong>2 puntos extra por la Pole Position.</strong></li>
+        <li><strong>Punto de VR:</strong> Solo el piloto que la haga se lo lleva.</li>
     </ul>
-    
+
+    <h3>Formato Mini</h3>
+    <ul>
+        <li>5 carreras de 5 vueltas cada una.</li>
+        <li>Orden de parrilla subjetivo para equilibrar la competencia.</li>
+        <li>Selección de circuitos mediante ruleta con todos los del juego.</li>
+        <li><strong>Puntuación:</strong>
+            <ul>
+                <li>Cada carrera: Máximo 26 puntos.</li>
+                <li>Total del Mini: 130 puntos.</li>
+                <li>Al final de las 5 carreras, la puntuación se transformará a esta escala:</li>
+                <ul>
+                    <li>1º clasificado: 25 puntos</li>
+                    <li>2º clasificado: 20 puntos</li>
+                    <li>3º clasificado: 18 puntos</li>
+                    <li>4º clasificado: 15 puntos</li>
+                    <li>5º clasificado: 13 puntos</li>
+                    <li>6º clasificado: 10 puntos</li>
+                    <li>7º clasificado: 9 puntos</li>
+                    <li>8º clasificado: 8 puntos</li>
+                    <li>9º clasificado: 7 puntos</li>
+                    <li>10º clasificado: 6 puntos</li>
+                    <li>11º clasificado: 4 puntos</li>
+                    <li>12º clasificado: 3 puntos</li>
+                    <li>13º clasificado: 2 puntos</li>
+                    <li>14º clasificado: 1 punto</li>
+                </ul>
+            </ul>
+        </li>
+        <li><strong>Punto de VR:</strong> Se otorgará a los pilotos que logren hacer VR en diferentes carreras.</li>
+    </ul>
+
     <h3>Ruletas</h3>
     <h4>Ruleta de Clasificación</h4>
     <ul>
@@ -75,30 +121,18 @@
         <li>Los <strong>2 primeros</strong> deben clasificar con <strong>neumáticos duros</strong>.</li>
         <li>Puede haber <strong>lluvia</strong>.</li>
     </ul>
-    
+
     <h4>Ruleta de Carrera</h4>
     <ul>
-        <li>Parrilla invertida</li>
-        <li>Los 5 primeros inician con neumáticos duros</li>
-        <li>Lluvia</li>
-        <li>Se elimina un compuesto de neumáticos</li>
-        <li>Carrera con 3 paradas obligatorias</li>
-        <li>Cambio de orden de parrilla entre compañeros de equipo</li>
+        <li>Parrilla invertida.</li>
+        <li>Los 5 primeros inician con neumáticos duros.</li>
+        <li>Lluvia.</li>
+        <li>Se elimina un compuesto de neumáticos.</li>
+        <li>Carrera con 3 paradas obligatorias.</li>
+        <li>Cambio de orden de parrilla entre compañeros de equipo.</li>
+        <li>Los 3 primeros del mundial salen al fondo de la parrilla.</li>
     </ul>
-    
-    <h3>Formato Mini</h3>
-    <ul>
-        <li>5 carreras de 5 vueltas cada una.</li>
-        <li>Orden de parrilla subjetivo para equilibrar la competencia.</li>
-        <li>Selección de circuitos mediante ruleta con todos los del juego.</li>
-        <li>Puntuación:
-            <ul>
-                <li>Cada carrera: Máximo 26 puntos.</li>
-                <li>Total del Mini: 130 puntos, dividido en 2 mitades (máximo 65 por fase).</li>
-            </ul>
-        </li>
-    </ul>
-    
+
     <h2>Ajustes de Simulación</h2>
     <ul>
         <li>Fantasma: Desactivado.</li>
@@ -108,7 +142,7 @@
         <li>Formation Lap: Activado.</li>
         <li>Set Up: Desactivado.</li>
     </ul>
-    
+
     <h2>Normas Generales</h2>
     <ul>
         <li>Si provocas un accidente en las rápidas, sales último en la siguiente y puedes recibir <strong>penalización de tiempo</strong>.</li>
@@ -118,7 +152,7 @@
         <li><strong>Crashgate (como JT):</strong> Descalificación del campeonato.</li>
         <li><strong>Reclamaciones:</strong> Se presentan al finalizar la carrera. El comisario puede tardar <strong>hasta 1 semana</strong> en dar un veredicto.</li>
     </ul>
-    
+
     <p><strong>Nota:</strong> La organización (<strong>maFIA</strong>) puede <strong>modificar</strong> cualquier norma en cualquier momento.</p>
 </body>
 
